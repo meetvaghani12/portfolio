@@ -34,6 +34,15 @@ export const projectsData = [
         code: '',
         demo: '',
         role: 'Full Stack Developer',
+    },
+    {
+        id: 5,
+        name: 'Hotel Management System - Python Tkinter',
+        description: "The Hotel Management System is a desktop-based billing application designed for restaurants or hotels. It facilitates smooth billing processes by allowing staff to add items from predefined categories (e.g., Snacks, Main Course, and Hygienic Items), calculate totals, and generate a detailed bill for customers.",
+        tools: ['Python', 'Tkinter', 'Random Module', 'OS and SYS Modules', 'MessageBox (from Tkinter)', 'React Hook Form',],
+        code: '',
+        demo: '',
+        role: 'Python Developer',
     }
 ];
 
