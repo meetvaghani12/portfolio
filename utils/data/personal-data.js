@@ -13,5 +13,7 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/',
   leetcode: "https://leetcode.com/",
   devUsername: "meetvaghani15",
-  resume: "https://drive.google.com/file/d/1C55YOFxkoVxfmkYhkUTK3m2w5GJ8RcVl/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1oHMAHOpWTpCb9WlZaeX7EJHwRnHL_CnI/view?usp=sharing"
 }
+
+//favicon.ico
