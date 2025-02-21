@@ -1,7 +1,6 @@
 const path = require('path')
-
+ 
 module.exports = {
-  reactStrictMode: true, // Ensure better debugging
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -24,7 +23,4 @@ module.exports = {
       },
     ],
   },
-  experimental: {
-    appDir: true, // Ensure app router compatibility (if using Next.js 15)
-  }
 }
