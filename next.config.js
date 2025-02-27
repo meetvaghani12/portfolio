@@ -1,6 +1,7 @@
 const path = require('path')
- 
-module.exports = {
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -23,4 +24,18 @@ module.exports = {
       },
     ],
   },
+  // Add these configurations
+  reactStrictMode: true,
+  experimental: {
+    esmExternals: false
+  },
+  webpack: (config) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+    };
+    return config;
+  },
 }
+
+module.exports = nextConfig
